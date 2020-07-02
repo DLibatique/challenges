@@ -4,7 +4,7 @@ Letter = namedtuple("Letter", "name amount value")
 
 
 def _load_words():
-    with open("dictionary.txt") as f:
+    with open("/Users/daniellibatique/code/github-repos/challenges/02/dictionary.txt") as f:
         return set([word.strip().lower() for word in f.read().split()])
 
 
